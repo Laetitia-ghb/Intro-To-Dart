@@ -1,5 +1,5 @@
 void main() {
- // Working with variables
+ /*Working with variables
  int birthyear = 2000;
  int currentyear = 2021;
  int (age) = currentyear - birthyear;
@@ -37,4 +37,43 @@ void sayHello() {
   print('Hello');
 }
 
-sayHello();
+sayHello();*/
+
+//LOOPS(Iteration)
+//while loop
+/*int age = 20;
+while (age < 30) {
+  print('Hello,  Ghana');
+  age++; //Or age=age+1 or age+ = 1. Can do with other signs(*,-,/)
+  }
+
+//Do while Loops
+do {
+  print ('Hello, Ghana')};
+  age++;
+  while (age < 30); //to atleast print something once*/
+
+/* For loops
+  int age = ;
+  for (age; age<30; age+= 1) {
+    print('Hello, Ghana');
+    } */
+
+/*For loops
+    List fruits = ['pineapple','orange', 'apple', 'mango', 'pawpaw'];
+    for (int i=0; i < fruits.length; i++) {
+      print(fruits[i]);
+      }*/
+
+/*For in loops
+List numbers = [1, 2, 3, 4, 5, 6, 7];
+for (int digits in numbers) {
+  print(digits);
+  } */
+
+  /*int score = 0; 
+  while (score < 15) {
+    print('Poor!');
+    score++;
+  }*/
+}
