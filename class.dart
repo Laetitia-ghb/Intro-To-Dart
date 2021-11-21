@@ -16,7 +16,7 @@ Used to build the actual object
 Has the same name as the class e.g WildAnimals(name, numberOfLegs, numberOfEyes);
 */
 
-WildAnimal Crocodile = new WildAnimal('crocodile', 4, 2);
+/*/WildAnimal Crocodile = new WildAnimal('crocodile', 4, 2);
 WildAnimal Lion = new WildAnimal('Lion', 4, 2);
 WildAnimal Dog = new WildAnimal('Dog', 4, 2); {
 print(Crocodile.name);
@@ -42,4 +42,39 @@ class WildAnimal {
    WildAnimal Dog = new WildAnimal('Dog', 4, 2);
 
   WildAnimal(name, numberOfLegs, numberOfEyes); 
+  }*/
+
+class Person {
+  void sayHello() {
+    print('Hello there!');
   }
+
+  void eat() {
+    print("I'm very hungry");
+  }
+}
+
+class Student extends Person {
+ }
+
+  
+    Person person = Person();
+    Student student = Student();
+    Rebel rebel = Rebel();
+
+    person.sayHello();
+    person.eat();
+    student.sayHello();
+    student.eat();
+    rebel.sayHello();
+    rebel.eat();
+}
+
+class Rebel implements Person{
+  void sayHello() {
+    print('Do not greet me!');
+  }
+  void eat() {
+    print('I need a snack');
+  }
+}
