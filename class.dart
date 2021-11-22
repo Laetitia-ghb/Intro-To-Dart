@@ -33,7 +33,7 @@ print(Dog.numberOfEyes);
 
 class WildAnimal {
 // Contains attributes/Member variables
-   String? name;
+   String? name
    int? numberOfLegs;
    int? numberOfEyes;
 
@@ -43,19 +43,6 @@ class WildAnimal {
 
   WildAnimal(name, numberOfLegs, numberOfEyes); 
   }*/
-
-class Person {
-  void sayHello() {
-    print('Hello there!');
-  }
-
-  void eat() {
-    print("I'm very hungry");
-  }
-}
-
-class Student extends Person {
- }
 
   
     Person person = Person();
@@ -68,7 +55,21 @@ class Student extends Person {
     student.eat();
     rebel.sayHello();
     rebel.eat();
+
 }
+class Person {
+  // ignore: unused_element
+  void sayHello() {
+    print('Hello there!');
+  }
+
+  void eat() {
+    print("I'm very hungry");
+  }
+}
+
+class Student extends Person {
+ }
 
 class Rebel implements Person{
   void sayHello() {
